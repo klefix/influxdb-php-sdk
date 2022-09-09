@@ -1,7 +1,7 @@
 <?php
 namespace InfluxDB\Type;
 
-class BoolTypeTest extends \PHPUnit_Framework_TestCase
+class BoolTypeTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider boolProvider

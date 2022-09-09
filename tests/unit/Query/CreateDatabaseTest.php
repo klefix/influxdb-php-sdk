@@ -1,7 +1,7 @@
 <?php
 namespace InfluxDB\Query;
 
-class CreateDatabaseTest extends \PHPUnit_Framework_TestCase
+class CreateDatabaseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider queries

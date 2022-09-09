@@ -4,11 +4,12 @@ namespace InfluxDB\Adapter\Http;
 use DateTime;
 use DateTimeZone;
 use InfluxDB\Client;
+use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use InfluxDB\Adapter\Http\Options;
 use GuzzleHttp\Client as GuzzleHttpClient;
 
-class ReaderTest extends \PHPUnit_Framework_TestCase
+class ReaderTest extends TestCase
 {
     /**
      * @group tcp

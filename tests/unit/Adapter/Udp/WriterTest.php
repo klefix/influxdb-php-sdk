@@ -9,7 +9,7 @@ use InfluxDB\Adapter\GuzzleAdapter as InfluxHttpAdapter;
 use InfluxDB\Client;
 use Prophecy\Argument;
 
-class WriterTest extends \PHPUnit_Framework_TestCase
+class WriterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider getMessages

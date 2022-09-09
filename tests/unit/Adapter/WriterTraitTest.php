@@ -1,11 +1,12 @@
 <?php
 namespace InfluxDB\Adapter;
 
+use PHPUnit\Framework\TestCase;
 use ReflectionMethod;
 use InfluxDB\Type\IntType;
 use InfluxDB\Type\FloatType;
 
-class WriterTraitTest extends \PHPUnit_Framework_TestCase
+class WriterTraitTest extends TestCase
 {
     /**
      * @dataProvider getElements

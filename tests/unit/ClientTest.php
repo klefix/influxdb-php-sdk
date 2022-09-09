@@ -8,7 +8,7 @@ use InfluxDB\Options;
 use InfluxDB\Adapter\UdpAdapter;
 use GuzzleHttp\Client as GuzzleHttpClient;
 
-class ClientTest extends \PHPUnit_Framework_TestCase
+class ClientTest extends \PHPUnit\Framework\TestCase
 {
     public function testMarkNewMeasurementWithShortSyntax()
     {

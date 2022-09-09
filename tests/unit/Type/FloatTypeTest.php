@@ -1,7 +1,7 @@
 <?php
 namespace InfluxDB\Type;
 
-class FloatTypeTest extends \PHPUnit_Framework_TestCase
+class FloatTypeTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider floatProvider

@@ -11,12 +11,12 @@ use InfluxDB\Query\CreateDatabase;
 use InfluxDB\Query\DeleteDatabase;
 use InfluxDB\Query\GetDatabases;
 
-class TestCase extends \PHPUnit_Framework_TestCase
+class TestCase extends \PHPUnit\Framework\TestCase
 {
     private $client;
     private $options;
 
-    public function setUp()
+    public function setUp(): void
     {
         $options = $this->options = new HttpOptions();
         $guzzleHttp = new GuzzleHttpClient();
@@ -32,7 +32,7 @@ class TestCase extends \PHPUnit_Framework_TestCase
         $this->dropAll();
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         $this->dropAll();
     }

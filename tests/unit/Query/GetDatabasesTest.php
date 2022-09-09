@@ -1,7 +1,7 @@
 <?php
 namespace InfluxDB\Query;
 
-class GetDatabasesTest extends \PHPUnit_Framework_TestCase
+class GetDatabasesTest extends \PHPUnit\Framework\TestCase
 {
     public function testGetDatabasesQuery()
     {

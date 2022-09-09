@@ -6,9 +6,10 @@ use DateTimeZone;
 use InfluxDB\Adapter\Http\Options;
 use GuzzleHttp\Client as GuzzleHttpClient;
 use InfluxDB\Client;
+use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 
-class WriterTest extends \PHPUnit_Framework_TestCase
+class WriterTest extends TestCase
 {
     /**
      * @group tcp

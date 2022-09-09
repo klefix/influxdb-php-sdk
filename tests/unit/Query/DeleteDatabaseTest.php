@@ -1,7 +1,7 @@
 <?php
 namespace InfluxDB\Query;
 
-class DeleteDatabaseTest extends \PHPUnit_Framework_TestCase
+class DeleteDatabaseTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider queries

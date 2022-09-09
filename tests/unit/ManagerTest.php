@@ -3,7 +3,7 @@ namespace InfluxDB;
 
 use Prophecy\Argument;
 
-class ManagerTest extends \PHPUnit_Framework_TestCase
+class ManagerTest extends \PHPUnit\Framework\TestCase
 {
     public function testQueryCommandWithCallables()
     {
